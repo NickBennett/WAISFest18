@@ -89,7 +89,7 @@ Thankfully this is a lot easier than tables as there are fewer requirements.
 ```latex
 \begin{figure}
   \includegraphics[scale=1]{image1.png} 
-  \caption{#image1 refers to an image in your /img/ folder in your Thesis directory}
+  \caption{#image1 refers to an image in your /Figures/ folder in your Thesis directory}
   \label{Image1} #Refer to this in text using \ref{Image1}
 \end{figure}
 ```
@@ -102,7 +102,7 @@ In TexMaker, once you click the arrow icon at the top of the screen next to the 
 **REQUIRED** This is required by everyone as the ECS template is 7 years old and uses FPSE's old name of Faculty of Engineering, Science and Mathematics. Open up the ecsthesis.cls in TexMaker and search for `faculty`. You need to change the entries about halfway through the document (lines 162 and 165) to your respective Faculties. 
 
 # External Links #
-As with any process, LaTeX and TexMaker has a learning curve. It might seem all too complicate at first, but it gets considerably easier with practise. There are many different tutorials available on the web and if you come across an issue then Google is your friend.
+As with any process, LaTeX and TexMaker has a learning curve. It might seem all too complicated at first, but it gets considerably easier with practise. There are many different tutorials available on the web and if you come across an issue then Google is your friend.
 
 For a list of LaTeX table types, [click here](https://www.sharelatex.com/learn/Tables). 
 For more information about images, [click here](https://www.sharelatex.com/learn/Inserting_Images)
